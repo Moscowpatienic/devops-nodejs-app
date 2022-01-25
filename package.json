@@ -1,0 +1,26 @@
+{
+  "name": "devops-nodejs-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"mocha ./test/* --exit\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moscowpatienic/devops-nodejs-app.git"
+  },
+  "author": "max",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Moscowpatienic/devops-nodejs-app/issues"
+  },
+  "homepage": "https://github.com/Moscowpatienic/devops-nodejs-app#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "mocha": "^9.2.0",
+    "supertest": "^6.2.2"
+  }
+}
